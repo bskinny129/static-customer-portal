@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Breakout Mentors Customer Portal</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Datepicker - should npm install as well -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker3.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <div id="header" class="container-fluid">
+            
+            <img class="navbar-left" src="http://breakoutmentors.com/wp-content/uploads/2014/09/final-logo-no-background-sized-no-words3-1.png" alt="">
+           
+            <a  class="navbar-right" href="#" id="menu-toggle-button"></a>
+           
+        </div>
+    </nav>
+
+    <div class="container-fluid page">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 sidebar">
+                <ul class="sidebar-nav">
+                    <li class="active">
+                        <a href="billing.html">Billing</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Charlie</a>
+                    </li>
+                    <li>
+                        <a href="#">Sophie</a>
+                    </li>
+                    <li>
+                        <a href="#">Settings</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-9 main-content billing-page">
+                <div>
+                    <h1 class="billing-history-heading">Billing</h1> 
+                    <button type="button" class="btn btn-link billing-history-button">View Payment History<span class="glyphicon glyphicon-chevron-right"></span></button>
+                </div>
+
+
+
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="center-button-group">
+                                        <div class="btn-group" data-toggle="buttons">
+                                            <label class="btn btn-default btn-lg"><input type="radio" name="payment-type" id="pas-as-you-go">Pay As You Go</label>
+                                            <label class="btn btn-default btn-lg"><input type="radio" name="payment-type" id="prepay-for-10">Prepay for 10<br />sessions with a<br />10% discount</label>
+                                        </div>
+                                    </div>
+                                    <h2>Amount Due: $<span class="total">610</span></h2>
+                                    <button type="button" class="btn btn-primary btn-lg btn-block">Pay Now</button> 
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="container shopping-cart"> 
+
+                    <h2>Shopping Cart</h2>
+                    <h3>2 sessions at $110</h3>
+                    <div class="row vertical-align">
+                        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4 long-date"></div>
+                        <div class="col-xs-4 col-md-4 button-section">
+                            <button type="button" class="btn btn-success btn-sm confirm">Confirm</button>
+                            <button type="button" class="btn btn-default btn-sm session-moved">Move</button>
+                            <button type="button" class="btn btn-default btn-sm session-canceled">Cancel</button>
+                        </div>
+                    </div>
+                    <div class="row details-box"></div>
+                    <div class="row vertical-align">
+                        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4 long-date"></div>
+                        <div class="col-xs-4 col-md-4 button-section">
+                            <button type="button" class="btn btn-default btn-sm confirmed"><span class="glyphicon glyphicon-ok confirmed-session-icon"></span>&nbsp;Confirmed</button>
+                            <button type="button" class="btn btn-link btn-sm modify">Modify</button>
+                        </div>
+                    </div>
+                    <div class="row details-box">
+                        <div class="col-xs-11 col-xs-offset-1">
+                            <span class="glyphicon glyphicon-ok confirmed-session-icon"></span>
+                            <span class="details-text">Confirmed by Brian Skinner on 4/6/2015</span>
+                        </div>
+                    </div>
+
+
+                    <h3>3 sessions at $130</h3>
+
+                    <div class="row vertical-align">
+                        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4 long-date"></div>
+                        <div class="col-xs-4 col-sm-6 button-section">
+                            <button type="button" class="btn btn-default btn-sm confirmed"><span class="glyphicon glyphicon-ok confirmed-session-icon"></span>&nbsp;Confirmed</button>
+                            <button type="button" class="btn btn-link btn-sm modify">Modify</button>
+                        </div>
+                    </div>
+                    <div class="row details-box">
+                        <div class="col-xs-11 col-xs-offset-1">
+                            <span class="glyphicon glyphicon-ok confirmed-session-icon"></span>
+                            <span class="details-text">Confirmed by Brian Skinner on 4/6/2015</span>
+                        </div>
+                    </div>
+                    <div class="row vertical-align">
+                        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4 long-date"></div>
+                        <div class="col-xs-4 col-sm-6 button-section">
+                            <button type="button" class="btn btn-success btn-sm confirm">Confirm</button>
+                            <button type="button" class="btn btn-default btn-sm session-moved">Move</button>
+                            <button type="button" class="btn btn-default btn-sm session-canceled">Cancel</button>
+                        </div>
+                    </div>
+                    <div class="row details-box"></div>
+                    <div class="row vertical-align">
+                        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4 long-date"></div>
+                        <div class="col-xs-4 col-sm-6 button-section">
+                            <button type="button" class="btn btn-default btn-sm confirmed"><span class="glyphicon glyphicon-ok confirmed-session-icon"></span>&nbsp;Confirmed</button>
+                            <button type="button" class="btn btn-link btn-sm modify">Modify</button>
+                        </div>
+                    </div>
+                    <div class="row details-box">
+                        <div class="col-xs-11 col-xs-offset-1">
+                            <span class="glyphicon glyphicon-ok confirmed-session-icon"></span>
+                            <span class="details-text">Confirmed by Brian Skinner on 4/6/2015</span>
+                        </div>
+                    </div>
+
+                    <div class="row additional-10">
+                        <div class="col-xs-12">
+                            <h3>+10 sessions with 10% discount</h3>
+                        </div>
+                    </div>   
+                    
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2>Total: $<span class="total">610</span></h2>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="bottom-space"></div>
+                <div class="center-contact-link">
+                    <p><a>Have a question? Contact Breakout Mentors</a></p>
+                </div>
+
+                <div class="bottom-space"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- should download this ourselves or npm it -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.js"></script>
+
+    <!-- Should npm install the Moment.js library -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script>
+
+
+    <script src="js/my_js.js"></script>
+
+</body>
+
+</html>

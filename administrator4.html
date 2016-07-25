@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Breakout Mentors Customer Portal</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Datepicker - should npm install as well -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker3.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <div id="header" class="container-fluid">
+            
+            <img class="navbar-left" src="http://breakoutmentors.com/wp-content/uploads/2014/09/final-logo-no-background-sized-no-words3-1.png" alt="">
+           
+            <a  class="navbar-right" href="#" id="menu-toggle-button"></a>
+           
+        </div>
+    </nav>
+
+    <div class="container-fluid page">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 sidebar">
+                <ul class="sidebar-nav">
+                    <li>
+                        <a href="administrator1.html">Student Groups</a>
+                    </li>
+                    <li>
+                        <a href="administrator3.html">Families</a>
+                    </li>
+                    <li class="active">
+                        <a href="administrator4.html">Mentors</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-9 main-content billing-page">
+                <h1>Mentors</h1>
+
+                <button type="button" class="btn btn-primary edit-button">Edit</button>
+
+                <div class="container-fluid">
+
+                    <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Select a Mentor
+                            <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Brian Skinner</a></li>
+                        <li><a href="#">Megan Wilson</a></li>
+                        <li><a href="#">Morgan Connelly</a></li>
+                        <li><a href="#">Ryan Hermstein</a></li>
+                        <li><a href="#">Trina Sarkar</a></li>
+                      </ul>
+                      <div class="checkbox show-inactive">
+                        <label>
+                          <input type="checkbox">Show inactive
+                        </label>
+                      </div>
+                    </div>
+      
+
+                    <div class="row group-details">
+                        <div class="col-xs-12 col-sm-6">
+                            <p>Name: Brian Skinner</p>
+                            <p>Mentor ID: 9</p>
+                            <p>Is Active: Yes</p>
+                            <p>Email: brian@breakoutmentors.com</p>
+                            <p>Phone: 661-803-1521</p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6">
+                            <p>Student Groups: <a href="administrator1.html">Bruce Goldberg</a> (Kids: <a href="administrator2.html">Sam</a>)</p>
+                            <p>Website user: <a href="administrator5.html">brian@breakoutmentors.com</a></p>
+                        </div>
+                    </div>
+
+                    
+                    Note - can edit: is active, email, phone, name, add/remove student groups
+                    
+                    <h3>Sessions</h3>
+                    <div class="row vertical-align">
+                        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4">Bruce Goldberg - Monday, October 5th 2015 (#298)</div>
+                        <div class="col-xs-4 col-sm-6 button-section">
+                            <button type="button" class="btn btn-default btn-sm paid"><span class="glyphicon glyphicon-ok confirmed-session-icon"></span>&nbsp;Paid</button>
+                        
+                            <button type="button" class="btn btn-success btn-sm confirm">Confirm</button>
+                            
+                            <button type="button" class="btn btn-default btn-sm session-moved">Move</button>
+                            <button type="button" class="btn btn-default btn-sm session-canceled">Cancel</button>
+                        </div>
+                    </div>
+                    <div class="row session-action">
+                        <div class="col-xs-11 col-xs-offset-1">
+                            <p>Paid for Sam - Brian Skinner on 5/4/16 (SessionCreditID: 17)<p>
+                        </div>
+                    </div>
+
+                    <div class="row vertical-align">
+                        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4"><s>Bruce Goldberg - Monday, October 5th 2015 (#298)</s></div>
+                        <div class="col-xs-4 col-sm-6 button-section">
+                            
+                        </div>
+                    </div>
+                    <div class="row session-action">
+                        <div class="col-xs-11 col-xs-offset-1">
+                            <p>Cancel - Bruce Goldberg on 5/4/16<p>
+                        </div>
+                    </div>
+
+                    <div class="row vertical-align">
+                        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4">Bruce Goldberg - Monday, October 5th 2015 (#298)</div>
+                        <div class="col-xs-4 col-sm-6 button-section">
+                            <button type="button" class="btn btn-default btn-sm paid"><span class="glyphicon glyphicon-ok confirmed-session-icon"></span>&nbsp;Paid</button>
+
+                            <button type="button" class="btn btn-default btn-sm confirmed"><span class="glyphicon glyphicon-ok confirmed-session-icon"></span>&nbsp;Confirmed</button>
+                            
+                            <button type="button" class="btn btn-link btn-sm modify">Modify</button>
+                        </div>
+                    </div>
+                    <div class="row session-action">
+                        <div class="col-xs-11 col-xs-offset-1">
+                            <p>Confirm - Brian Skinner on 5/4/16<p>
+                            <p>Paid for Sam - Brian Skinner on 5/4/16 (SessionCreditID: 16)<p>
+                        </div>
+                    </div>
+
+                    <div class="row vertical-align">
+                        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4">Bruce Goldberg - Monday, October 5th 2015 (#298)</div>
+                        <div class="col-xs-4 col-sm-6 button-section">
+                            <button type="button" class="btn btn-default btn-sm paid"><span class="glyphicon glyphicon-ok confirmed-session-icon"></span>&nbsp;Paid</button>
+
+                            <button type="button" class="btn btn-default btn-sm confirmed"><span class="glyphicon glyphicon-ok confirmed-session-icon"></span>&nbsp;Confirmed</button>
+                            
+                            <button type="button" class="btn btn-link btn-sm modify">Modify</button>
+                        </div>
+                    </div>
+                    <div class="row session-action">
+                        <div class="col-xs-11 col-xs-offset-1">
+                            <p>Confirm - Brian Skinner on 5/4/16<p>
+                            <p>Move - Brian Skinner from 4/5/16 to 4/7/16<p>
+                            <p>Paid for Sam - Brian Skinner on 5/4/16 (SessionCreditID: 11)<p>
+                        </div>
+                    </div>
+
+                    <div class="row vertical-align">
+                        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4">Bruce Goldberg - Monday, October 5th 2015 (#298)</div>
+                        <div class="col-xs-4 col-sm-6 button-section">
+                            <button type="button" class="btn btn-default btn-sm paid"><span class="glyphicon glyphicon-ok confirmed-session-icon"></span>&nbsp;Paid</button>
+
+                            <button type="button" class="btn btn-default btn-sm confirmed"><span class="glyphicon glyphicon-ok confirmed-session-icon"></span>&nbsp;Confirmed</button>
+                
+                            <button type="button" class="btn btn-link btn-sm modify">Modify</button>
+                        </div>
+                    </div>
+                    <div class="row session-action">
+                        <div class="col-xs-11 col-xs-offset-1">
+                            <p>Confirm - Brian Skinner on 5/4/16<p>
+                            <p>Paid for Sam - Brian Skinner on 5/4/16 (SessionCreditID: 6)<p>
+                        </div>
+                    </div>
+
+                
+
+                
+                </div>
+
+                <div class="bottom-space"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- should download this ourselves or npm it -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.js"></script>
+
+    <!-- Should npm install the Moment.js library -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script>
+
+
+    <script src="js/my_js.js"></script>
+
+</body>
+
+</html>
