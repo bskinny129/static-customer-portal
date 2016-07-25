@@ -43,7 +43,7 @@
     </nav>
 
     <div class="container-fluid page">
-        <div class="row">
+        <div class="row" id="entry-point">
             <div class="col-xs-12 col-sm-3 sidebar">
                 <ul class="sidebar-nav">
                     <li class="active">
@@ -61,34 +61,40 @@
                 </ul>
             </div>
 
-            <div class="col-xs-12 col-sm-9 main-content billing-page">
+            <div class="col-xs-12 col-sm-9 main-content">
                 <div>
                     <h1 class="billing-history-heading">Billing</h1> 
                     <button type="button" class="btn btn-link billing-history-button">View Payment History<span class="glyphicon glyphicon-chevron-right"></span></button>
                 </div>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 hours-coding">
-                            <div><span class="num-sessions">6</span>&nbsp;session credits remaining</div>
-                        </div>
-                       
-                    </div>
+
+                <div class="session-credits-remaining">
+                      <span class="num-sessions">6</span>&nbsp;session credits remaining
                 </div>
+                       
 
                 <div class="container-fluid">
-
-                    <div class="center-button-group">
-                        <div class="row">
-                            <div class="btn-group" data-toggle="buttons">
-                                <label class="btn btn-default btn-lg"><input type="radio" name="payment-type" id="pas-as-you-go">Pay As You Go</label>
-                                <label class="btn btn-default btn-lg"><input type="radio" name="payment-type" id="prepay-for-10">Prepay for 10 sessions <br />with a 10% discount</label>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="center-button-group">
+                                        <div class="btn-group" data-toggle="buttons">
+                                            <label class="btn btn-default btn-lg"><input type="radio" name="payment-type" id="pas-as-you-go">Pay As You Go</label>
+                                            <label class="btn btn-default btn-lg"><input type="radio" name="payment-type" id="prepay-for-10">Prepay for 10<br />sessions with a<br />10% discount</label>
+                                        </div>
+                                    </div>
+                                    <h2>Amount Due: $<span class="total">0</span></h2>
+                                    <button type="button" class="btn btn-primary btn-lg btn-block">Pay Now</button> 
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>    
+                </div>  
 
-                <div class="container">
+                <div class="container shopping-cart"> 
+
+                    <h2>Shopping Cart</h2>
                     <div class="row additional-10">
                         <div class="col-xs-12">
                             <h3>+10 sessions with 10% discount</h3>
@@ -103,29 +109,11 @@
                     </div>
                 </div>
             
-                <div class="container-fluid">
-                    <div class="center-pay-now">
-                        <form action="" method="POST">
-                              <script
-                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                                data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
-                                data-amount="999"
-                                data-name="Stripe.com"
-                                data-description="Widget"
-                                data-image="/img/documentation/checkout/marketplace.png"
-                                data-label="Pay Now"
-                                data-locale="auto">
-                              </script>
-                        </form>
-                    </div>
-                    
-                </div>
 
                 <div class="center-contact-link">
                     <p><a>Have a question? Contact Breakout Mentors</a></p>
                 </div>
 
-                <div class="bottom-space"></div>
 
             </div>
         </div>

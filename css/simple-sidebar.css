@@ -166,13 +166,14 @@ body{
 .mentor-details h4{
     margin: 0;
 }
-.hours-coding, .mentor-details{
+.hours-coding, .mentor-details, .session-credits-remaining{
     margin-bottom: 15px;
     padding-right: 0;
+    padding-left: 15px;
 }
 
 /* billing page specific */
-.billing-page .long-date{
+.long-date{
     padding-left: 30px;
 }
 .btn-group {
