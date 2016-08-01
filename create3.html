@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Breakout Mentors Customer Portal</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Datepicker - should npm install as well -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker3.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <div id="header" class="container-fluid">
+            
+            <img class="navbar-left" src="http://breakoutmentors.com/wp-content/uploads/2014/09/final-logo-no-background-sized-no-words3-1.png" alt="">
+           
+            <a  class="navbar-right" href="#" id="menu-toggle-button"></a>
+           
+        </div>
+    </nav>
+
+    <div class="container-fluid page">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 sidebar">
+                <ul class="sidebar-nav">
+                    <li>
+                        <a href="studentgroups.html">Student Groups</a>
+                    </li>
+                    <li>
+                        <a href="families.html">Families</a>
+                    </li>
+                    <li>
+                        <a href="mentors.html">Mentors</a>
+                    </li>
+                    <li>
+                        <a href="mentorassignments.html">Mentor Assignments</a>
+                    </li>
+                    <li class="active">
+                        <a href="create.html">Create New</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-9 main-content">
+                <h1>Create New</h1>
+
+                <div class="container-fluid">
+
+
+                    <div class="btn-group btn-group-lg" role="group">
+                          <button type="button" class="btn btn-default">Mentor</button>
+                          <button type="button" class="btn btn-default">Family</button>
+                          <button type="button" class="btn btn-default active">Student Group</button>
+                    </div>
+
+
+                    <form class="form-horizontal">
+
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label">Student Group Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                      </div>
+                      
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label">Student 1</label>
+                        <div class="col-sm-10">
+                            <select class="form-control">
+                                <option>N/A</option>
+                                <option>Bruce Goldberg - Charlie</option>
+                                <option>Bruce Goldberg - Sam</option>
+                                <option>Cherie Lim - Nick</option>
+                                <option>Kendra Ragatz - Elsie</option>
+                                <option>Kendra Ragatz - Kate</option>
+                            </select>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label">Student 2</label>
+                        <div class="col-sm-10">
+                            <select class="form-control">
+                                <option>N/A</option>
+                                <option>Bruce Goldberg - Charlie</option>
+                                <option>Bruce Goldberg - Sam</option>
+                                <option>Cherie Lim - Nick</option>
+                                <option>Kendra Ragatz - Elsie</option>
+                                <option>Kendra Ragatz - Kate</option>
+                            </select>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label">Student 3</label>
+                        <div class="col-sm-10">
+                            <select class="form-control">
+                                <option>N/A</option>
+                                <option>Bruce Goldberg - Charlie</option>
+                                <option>Bruce Goldberg - Sam</option>
+                                <option>Cherie Lim - Nick</option>
+                                <option>Kendra Ragatz - Elsie</option>
+                                <option>Kendra Ragatz - Kate</option>
+                            </select>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label">Mentor</label>
+                        <div class="col-sm-10">
+                            <select class="form-control">
+                                <option>Brian Skinner</option>
+                                <option>Megan Wilson</option>
+                                <option>Morgan Connelly</option>
+                                <option>Ryan Hermstein</option>
+                                <option>Trina Sarkar</option>
+                            </select>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label">Mentor Pay Rate</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="$ amount">
+                        </div>
+                      </div>
+
+                          
+                      
+                      <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-success btn-lg">Create</button>
+                        </div>
+                      </div>
+                    </form>
+                
+                </div>
+
+                <div class="bottom-space"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- should download this ourselves or npm it -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.js"></script>
+
+    <!-- Should npm install the Moment.js library -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script>
+
+
+</body>
+
+</html>
